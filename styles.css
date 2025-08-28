@@ -1,21 +1,15 @@
-/*  your css code here. If applicable */
 #container {
   margin: 20px;
-  padding: 10px; /* optional for spacing */
 }
 
-#container::before {
-  content: "This is before content";
-  display: block;
+#container:before {
+  content: "Before";
   color: #f00;
   font-size: 20px;
-  margin-bottom: 10px;
 }
 
-#container::after {
-  content: "This is after content";
-  display: block;
+#container:after {
+  content: "After";
   color: #f00;
   font-size: 20px;
-  margin-top: 10px;
 }
